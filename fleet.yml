@@ -1,5 +1,5 @@
-defaultNamespace: dizutest
-namespace: dizutest
+defaultNamespace: dizuprod
+namespace: dizuprod
 kustomize:
   dir: ./base 
 
