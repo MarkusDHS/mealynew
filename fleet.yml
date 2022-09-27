@@ -1,0 +1,10 @@
+defaultNamespace: dizutest
+namespace: dizutest
+kustomize:
+  dir: ./base 
+
+targetCustomizations:
+ - name: prod
+   clusterGroup: dscclusters
+   kustomize:
+     dir: overlays/prod
