@@ -1,5 +1,0 @@
-resources:
-- ../../base
-patches:
-- appdeploy.yaml
-- service.yaml
