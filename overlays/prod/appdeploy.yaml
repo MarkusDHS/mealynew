@@ -6,7 +6,7 @@ metadata:
     workload.user.cattle.io/workloadselector: apps.deployment-default-dizu
   name: dizu
 spec:
-  replicas: 3
+  replicas: 5
   selector:
     matchLabels:
       workload.user.cattle.io/workloadselector: apps.deployment-default-dizu
