@@ -15,6 +15,7 @@ spec:
     metadata:
       labels:
         workload.user.cattle.io/workloadselector: apps.deployment-default-dizu
+        env: prod
     spec:
       containers:
       - image: markusdhs/proddizu:b00cdd9ddfd3df69638e72d98a64d240bf688397
