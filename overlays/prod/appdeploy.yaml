@@ -16,7 +16,7 @@ spec:
         workload.user.cattle.io/workloadselector: apps.deployment-default-dizu
     spec:
       containers:
-      - image: markusdhs/proddizu:60365b976f1f7b056dee73b2d345e964930fcb46
+      - image: markusdhs/proddizu:7c997e8a6fa6a9f7f40799093fabe9d8185e8923
         imagePullPolicy: Always
         name: container-0
         ports:
