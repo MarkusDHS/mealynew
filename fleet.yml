@@ -5,7 +5,7 @@ targetCustomizations:
    kustomize:
      dir: overlays/prod
  - name: test
-   clusterGroup: testclusters
+   clusterGroup: dscclusters
    namespace: dizutest
    kustomize:
      dir: overlays/test
