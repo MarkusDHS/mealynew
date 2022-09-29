@@ -10,6 +10,7 @@ spec:
   selector:
     matchLabels:
       workload.user.cattle.io/workloadselector: apps.deployment-default-dizu
+      env: test
   template:
     metadata:
       labels:
