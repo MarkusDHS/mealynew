@@ -4,6 +4,7 @@ metadata:
   annotations: {}
   labels:
     workload.user.cattle.io/workloadselector: apps.deployment-default-dizu
+    env: prod
   name: dizu
 spec:
   replicas: 5
