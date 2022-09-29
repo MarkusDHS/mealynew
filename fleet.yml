@@ -1,10 +1,14 @@
-defaultNamespace: dizuprod
-namespace: dizuprod
 kustomize:
   dir: ./base 
 
 targetCustomizations:
  - name: prod
+   namespace: dizuprod
    clusterGroup: dscclusters
    kustomize:
      dir: overlays/prod
+ - name: test
+   clusterGroup: testclusters
+   namespace: dizutest
+   kustomize:
+     dir: overlays/test
