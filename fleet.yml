@@ -4,8 +4,3 @@ targetCustomizations:
    clusterGroup: dscclusters
    kustomize:
      dir: overlays/prod
- - name: test
-   clusterGroup: dscclusters
-   namespace: dizutest
-   kustomize:
-     dir: overlays/test
