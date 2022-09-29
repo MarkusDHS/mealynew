@@ -4,7 +4,6 @@ metadata:
   annotations: {}
   labels:
     workload.user.cattle.io/workloadselector: apps.deployment-default-dizutest
-    env: test
   name: dizu
 spec:
   replicas: 3
