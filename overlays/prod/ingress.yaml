@@ -1,0 +1,17 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata: 
+  name: dizuingress 
+spec: 
+  ingressClassName: nginx 
+  rules: 
+  - host: ingressdsc0101.fujitsu.io #Domain der Anwendung 
+    http: 
+      paths: 
+      - backend: 
+        service: 
+          name: dizuservice
+          port: 
+            number: 80 
+        path: / 
+        pathType: Prefix 
