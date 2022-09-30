@@ -9,9 +9,9 @@ spec:
     http: 
       paths: 
       - backend: 
-        service: 
-          name: dizuservice
-          port: 
+         service: 
+           name: dizuservice
+           port: 
             number: 80 
         path: / 
         pathType: Prefix 
