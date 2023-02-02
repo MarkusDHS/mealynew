@@ -1,16 +1,16 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata: 
-  name: dizuingress 
+  name: mealyingress 
 spec: 
   ingressClassName: nginx 
   rules: 
-  - host: ingressdsc0101.fujitsu.io #Domain der Anwendung 
+  - host: argocd.fujitsu.io #Domain der Anwendung 
     http: 
       paths: 
       - backend: 
           service: 
-            name: dizuservice
+            name: mealyservice
             port: 
               number: 80 
         path: / 

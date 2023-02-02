@@ -1,6 +1,6 @@
 targetCustomizations:
  - name: prod
-   namespace: dizuprod
+   namespace: mealy
    clusterGroup: dscclusters
    kustomize:
      dir: overlays/prod

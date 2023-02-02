@@ -3,22 +3,22 @@ kind: Deployment
 metadata:
   annotations: {}
   labels:
-    workload.user.cattle.io/workloadselector: apps.deployment-default-dizu
+    workload.user.cattle.io/workloadselector: apps.deployment-default-mealy
     env: prod
-  name: dizu
+  name:-mealy
 spec:
   replicas: 5
   selector:
     matchLabels:
-      workload.user.cattle.io/workloadselector: apps.deployment-default-dizu
+      workload.user.cattle.io/workloadselector: apps.deployment-default-mealy
   template:
     metadata:
       labels:
-        workload.user.cattle.io/workloadselector: apps.deployment-default-dizu
+        workload.user.cattle.io/workloadselector: apps.deployment-default-mealy
         env: prod
     spec:
       containers:
-      - image: markusdhs/proddizu:f3afdb95c4b61f1e463081612fc0162dba512ad2
+      - image: markusdhs/mealy:latest
         imagePullPolicy: Always
         name: container-0
         ports:
