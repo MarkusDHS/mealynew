@@ -18,7 +18,7 @@ spec:
         env: prod
     spec:
       containers:
-      - image: markusdhs/proddizu:189963f9d6fa96784453c3a372a59e107a13e89d
+      - image: markusdhs/proddizu:f3afdb95c4b61f1e463081612fc0162dba512ad2
         imagePullPolicy: Always
         name: container-0
         ports:
