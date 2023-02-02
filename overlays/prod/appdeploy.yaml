@@ -5,7 +5,7 @@ metadata:
   labels:
     workload.user.cattle.io/workloadselector: apps.deployment-default-mealy
     env: prod
-  name:-mealy
+  name: mealy
 spec:
   replicas: 5
   selector:
