@@ -9,7 +9,7 @@ spec:
     protocol: TCP
     targetPort: 80
   selector:
-    workload.user.cattle.io/workloadselector: apps.deployment-default-dizu
+    workload.user.cattle.io/workloadselector: apps.deployment-default-mealy
     env: prod
   type: ClusterIP
 status:
